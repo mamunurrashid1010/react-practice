@@ -4,6 +4,8 @@ import FunctionalComponent from './components/FunctionalComponent';
 import ClassComponent from './components/ClassComponent';
 import PropsInFunction from './props/PropsInFunction';
 import PropsInClass from './props/PropsInClass';
+import ButtonInFunction from './handlingEvents/ButtonInFunction';
+import ButtonInClass from './handlingEvents/ButtonInClass';
 
 function App() {
   return (
@@ -17,6 +19,10 @@ function App() {
         <h4>Props Practice</h4>
         <PropsInFunction name="Mamunur Rashid" designation="Software Engineer" />
         <PropsInClass name="Mamunur Rashid" designation="Software Engineer" />
+
+        <h4>Event Handling</h4>
+        <ButtonInFunction />
+        <ButtonInClass />
 
     </div>
   );
