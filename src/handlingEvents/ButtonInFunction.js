@@ -14,7 +14,6 @@ function ButtonInFunction(){
     return(
         <div>
             <button onClick={buttonClickHandler}>Click Me</button>
-
             {/* button with argument */}
             <button onClick={buttonWithArgumentClickHandler.bind(this,"test argument")}>Click Me (Aegument)</button>
         </div>

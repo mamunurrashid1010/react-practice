@@ -6,6 +6,7 @@ import PropsInFunction from './props/PropsInFunction';
 import PropsInClass from './props/PropsInClass';
 import ButtonInFunction from './handlingEvents/ButtonInFunction';
 import ButtonInClass from './handlingEvents/ButtonInClass';
+import ButtonBootstrap from './handlingEvents/ButtonBootstrap';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         <h4>Event Handling</h4>
         <ButtonInFunction />
         <ButtonInClass />
+
+        <h4>Bootstrap Button</h4>
+        <ButtonBootstrap />
 
     </div>
   );
