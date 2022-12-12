@@ -11,6 +11,9 @@ import ArrowFunction from './components/ArrowFunction';
 import StateInClass from './state/StateInClass';
 import Example1 from './ConditionalRendering/Example1';
 import Example2 from './ConditionalRendering/Example2';
+import Registration from './form/Registration';
+import List from './list/List';
+import DropdownList from './list/DropdownList';
 
 function App() {
   return (
@@ -42,6 +45,13 @@ function App() {
       <h4>Conditional Rendering Example</h4>
       <Example1/>
       <Example2/>
+
+      <h4>Form Example</h4>
+      <Registration/>
+
+      <h4>List Example</h4>
+      <List/>
+      <DropdownList/>
 
       </scrool>
 
