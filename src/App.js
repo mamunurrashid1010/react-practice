@@ -9,6 +9,8 @@ import ButtonInClass from './handlingEvents/ButtonInClass';
 import ButtonBootstrap from './handlingEvents/ButtonBootstrap';
 import ArrowFunction from './components/ArrowFunction';
 import StateInClass from './state/StateInClass';
+import Example1 from './ConditionalRendering/Example1';
+import Example2 from './ConditionalRendering/Example2';
 
 function App() {
   return (
@@ -36,6 +38,10 @@ function App() {
 
       <h4>State Example</h4>
       <StateInClass />
+
+      <h4>Conditional Rendering Example</h4>
+      <Example1/>
+      <Example2/>
 
       </scrool>
 
