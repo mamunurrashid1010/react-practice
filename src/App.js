@@ -14,6 +14,10 @@ import Example2 from './ConditionalRendering/Example2';
 import Registration from './form/Registration';
 import List from './list/List';
 import DropdownList from './list/DropdownList';
+import InlineCSS from './css/InlineCSS';
+import ObjectCSS from './css/ObjectCSS';
+import ExternalCSS from './css/ExternalCSS';
+import ModuleCSS from './css/ModuleCSS';
 
 function App() {
   return (
@@ -52,6 +56,12 @@ function App() {
       <h4>List Example</h4>
       <List/>
       <DropdownList/>
+
+      <h4>CSS Example</h4>
+      <InlineCSS/>
+      <ObjectCSS/>
+      <ExternalCSS/>
+      <ModuleCSS/>
 
       </scrool>
 
