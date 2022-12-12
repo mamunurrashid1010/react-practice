@@ -8,6 +8,7 @@ import ButtonInFunction from './handlingEvents/ButtonInFunction';
 import ButtonInClass from './handlingEvents/ButtonInClass';
 import ButtonBootstrap from './handlingEvents/ButtonBootstrap';
 import ArrowFunction from './components/ArrowFunction';
+import StateInClass from './state/StateInClass';
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
 
       <h4>Arrow Function</h4>
       <ArrowFunction />
+
+      <h4>State Example</h4>
+      <StateInClass />
+
       </scrool>
 
     </div>

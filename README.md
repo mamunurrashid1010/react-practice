@@ -23,7 +23,8 @@ React is a free and open-source front-end JavaScript library for building user i
 
 ##### 7. Arrow Function
 
-
+##### 8. State
+* Use state & setState in class component
 
 ## Basic Concept
 ##### 1. How to create a new react app
