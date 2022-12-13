@@ -41,6 +41,10 @@ React is a free and open-source front-end JavaScript library for building user i
 * External CSS use in program
 * Module CSS use in program
 
+##### 13. SASS/SCSS installation and use in a program
+
+
+
 ## Basic Concept
 ##### 1. How to create a new react app
 ```
@@ -107,11 +111,14 @@ class ClassComponent extends Component{
 export default ClassComponent;
 ```
 
-##### 4. Bootstrap install
+##### 4. Bootstrap install and use in a program
+Bootstrap install command
 ```
 npm install --save bootstrap
 ```
-Example
+Create component ```ButtonBootstrap.js``` and open. <br> 
+Import bootstrap.min.css file from node_modules like- ```import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';``` <br>
+then write code
 ```
 import React, { Component } from "react";
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -126,4 +133,38 @@ class ButtonBootstrap extends Component{
     }
 }
 export default ButtonBootstrap;
+```
+
+##### 5. SASS installation and write a program
+SASS install command
+```
+npm install node-sass
+```
+Create a .scss file ```mySASS.scss``` and open, then write-
+```
+$textColor: red;
+$textBackground: yellow;
+$textFontSize: 20px;
+
+.textStyle{
+    color: $textColor;
+    background-color: $textBackground;
+    font-size: $textFontSize;
+}
+```
+Create component ```SassPracticeExample.js``` and open. <br> 
+Import .scss file ```import './mySASS.scss';``` then write code
+```
+import React, { Component } from 'react';
+import './mySASS.scss'; //import sass file
+class SassPracticeExample extends Component {
+    render() {
+        return (
+            <div>
+                <p className="textStyle">SASS/SCSS Text</p>
+            </div>
+        );
+    }
+}
+export default SassPracticeExample;
 ```

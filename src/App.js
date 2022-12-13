@@ -18,6 +18,7 @@ import InlineCSS from './css/InlineCSS';
 import ObjectCSS from './css/ObjectCSS';
 import ExternalCSS from './css/ExternalCSS';
 import ModuleCSS from './css/ModuleCSS';
+import SassPracticeExample from './SCSS/SassPracticeExample';
 
 function App() {
   return (
@@ -62,6 +63,9 @@ function App() {
       <ObjectCSS/>
       <ExternalCSS/>
       <ModuleCSS/>
+
+      <h4>SASS Example</h4>
+      <SassPracticeExample/>
 
       </scrool>
 

@@ -1,0 +1,9 @@
+$textColor: red;
+$textBackground: yellow;
+$textFontSize: 20px;
+
+.textStyle{
+    color: $textColor;
+    background-color: $textBackground;
+    font-size: $textFontSize;
+}
