@@ -21,6 +21,8 @@ import ModuleCSS from './css/ModuleCSS';
 import SassPracticeExample from './SCSS/SassPracticeExample';
 import NavExample from './reactBootstrap/NavExample';
 import ReactTableExample from './table/ReactTableExample';
+import GetRequestExample from './httpRequest/GetRequestExample';
+import PostRequestExample from './httpRequest/PostRequestExample';
 
 function App() {
   return (
@@ -74,6 +76,10 @@ function App() {
 
       <h4>React Table Example</h4>
       {/* <ReactTableExample/> */}
+
+      <h4>Http Get Request Example</h4>
+      <GetRequestExample/>
+      <PostRequestExample/>
 
       </scrool>
 

@@ -47,6 +47,10 @@ React is a free and open-source front-end JavaScript library for building user i
 
 ##### 15. Axios installation
 
+##### 16. Http Request
+* Http get request
+* Http post request
+
 
 
 ## Basic Concept
