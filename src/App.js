@@ -19,6 +19,7 @@ import ObjectCSS from './css/ObjectCSS';
 import ExternalCSS from './css/ExternalCSS';
 import ModuleCSS from './css/ModuleCSS';
 import SassPracticeExample from './SCSS/SassPracticeExample';
+import NavExample from './reactBootstrap/NavExample';
 
 function App() {
   return (
@@ -66,6 +67,9 @@ function App() {
 
       <h4>SASS Example</h4>
       <SassPracticeExample/>
+
+      <h4>React Bootstrap Example</h4>
+      <NavExample/>
 
       </scrool>
 

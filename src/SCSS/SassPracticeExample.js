@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './mySASS.scss';
+import './mySASS.scss'; //import sass file
 
 class SassPracticeExample extends Component {
     render() {

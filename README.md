@@ -43,6 +43,8 @@ React is a free and open-source front-end JavaScript library for building user i
 
 ##### 13. SASS/SCSS installation and use in a program
 
+##### 14. React bootstrap installation and use in a program
+
 
 
 ## Basic Concept
@@ -167,4 +169,71 @@ class SassPracticeExample extends Component {
     }
 }
 export default SassPracticeExample;
+```
+
+##### 6. React bootstrap install and use in a program
+6.1 React bootstrap install command
+```
+npm install react-bootstrap bootstrap
+```
+6.2 CSS for react bootstrap, download,save- <br>
+open link: ```https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css``` and save file name 'bootstrap.min.css' in the project directory assets/css <br>
+
+6.3 Create component ```NavExample.js``` and open. <br> 
+Import bootstrap.min.css file from asstes/css like- ```import './css/bootstrap.min.css';``` <br>
+then write code
+```
+import React, { Component } from "react";
+import './css/bootstrap.min.css'; // import react bootstrap.min.css
+import { Navbar,Container,Nav,NavDropdown,Form,Button} from "react-bootstrap"; // react bootstrap 
+
+class NavExample extends Component{
+    render(){
+        return(
+            <div>
+                <Navbar bg="light" expand="lg">
+                    <Container fluid>
+                        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+                        <Navbar.Toggle aria-controls="navbarScroll" />
+                        <Navbar.Collapse id="navbarScroll">
+                        <Nav
+                            className="me-auto my-2 my-lg-0"
+                            style={{ maxHeight: '100px' }}
+                            navbarScroll
+                        >
+                            <Nav.Link href="#action1">Home</Nav.Link>
+                            <Nav.Link href="#action2">Link</Nav.Link>
+                            <NavDropdown title="Link" id="navbarScrollingDropdown">
+                            <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                            <NavDropdown.Item href="#action4">
+                                Another action
+                            </NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="#action5">
+                                Something else here
+                            </NavDropdown.Item>
+                            </NavDropdown>
+                            <Nav.Link href="#" disabled>
+                            Link
+                            </Nav.Link>
+                        </Nav>
+                        <Form className="d-flex">
+                            <Form.Control
+                            type="search"
+                            placeholder="Search"
+                            className="me-2"
+                            aria-label="Search"
+                            />
+                            <Button variant="outline-success">Search</Button>
+                        </Form>
+                        </Navbar.Collapse>
+                    </Container>
+            </Navbar>
+                <br/>
+            </div> 
+        );
+    }
+}
+export default NavExample;
+
 ```
