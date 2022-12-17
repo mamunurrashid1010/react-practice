@@ -250,3 +250,9 @@ Axios install command
 ```
 npm install axios
 ```
+
+##### 7. React Router Dom Installation
+React router dom installation command
+```
+npm install react-router-dom --save
+```
