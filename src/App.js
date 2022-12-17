@@ -23,6 +23,7 @@ import NavExample from './reactBootstrap/NavExample';
 import ReactTableExample from './table/ReactTableExample';
 import GetRequestExample from './httpRequest/GetRequestExample';
 import PostRequestExample from './httpRequest/PostRequestExample';
+import ReactBootstrapTableExample from './table/ReactBootstrapTableExample';
 
 function App() {
   return (
@@ -80,6 +81,9 @@ function App() {
       <h4>Http Get Request Example</h4>
       <GetRequestExample/>
       <PostRequestExample/>
+
+      <h4>React Bootstrap Table Example</h4>
+      <ReactBootstrapTableExample/>
 
       </scrool>
 
