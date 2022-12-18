@@ -16,8 +16,12 @@ class ReactBootstrapTableExample extends Component {
                 ],
         }
     }
- 
-
+    
+    // example-4
+    editRow(id, e){
+        alert("Edit id:"+id);
+    }
+    
     // table row data view
     tabRow(){
         // data view example-1
@@ -85,10 +89,23 @@ class ReactBootstrapTableExample extends Component {
                     </thead>
                     <tbody>
                         {/* example-1 */}
-                        {this.tabRow()}
+                        {/* {this.tabRow()} */}
 
                         {/* example-3 */}
                         {/* {data} */}
+
+                        {/* example-4 */}
+                        {this.state.member.map((data,i) => (
+                        <tr>
+                            <td>{i+1}</td>
+                            <td>{data.name}</td>
+                            <td>{data.age}</td>
+                            <td>
+                                <button className="btn btn-warning" onClick={(e) => this.editRow(data.id, e)}>Edit</button>
+                            </td>
+                        </tr>
+                        ))}
+
                     </tbody>
                 </Table>
             </div>
