@@ -24,6 +24,7 @@ import ReactTableExample from './table/ReactTableExample';
 import GetRequestExample from './httpRequest/GetRequestExample';
 import PostRequestExample from './httpRequest/PostRequestExample';
 import ReactBootstrapTableExample from './table/ReactBootstrapTableExample';
+import StateInFunction from "./state/StateInFunction";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
 
       <h4>State Example</h4>
       <StateInClass />
+      <StateInFunction/>
 
       <h4>Conditional Rendering Example</h4>
       <Example1/>

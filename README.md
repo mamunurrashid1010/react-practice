@@ -25,6 +25,7 @@ React is a free and open-source front-end JavaScript library for building user i
 
 ##### 8. State
 * Use state & setState in class component
+* State use in functional component
 
 ##### 9. Conditional Rendering
 
