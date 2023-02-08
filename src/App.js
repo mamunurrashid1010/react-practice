@@ -25,6 +25,7 @@ import GetRequestExample from './httpRequest/GetRequestExample';
 import PostRequestExample from './httpRequest/PostRequestExample';
 import ReactBootstrapTableExample from './table/ReactBootstrapTableExample';
 import StateInFunction from "./state/StateInFunction";
+import UseEffectExample from './hooks/UseEffectExample';
 
 function App() {
   return (
@@ -86,6 +87,9 @@ function App() {
 
       <h4>React Bootstrap Table Example</h4>
       <ReactBootstrapTableExample/>
+
+      <h4 className='pt-5'>Hooks</h4>
+      <UseEffectExample/>
 
       </scrool>
 
