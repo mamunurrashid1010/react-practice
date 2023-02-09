@@ -57,8 +57,9 @@ React is a free and open-source front-end JavaScript library for building user i
 ##### 18. Table
 * React bootstrap table use in project
 
-##### 18. Hooks
-* useEffect 
+##### 19. Hooks
+* useEffect basic example
+* useEffect data fetching example
 
 
 ## Basic Concept

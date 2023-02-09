@@ -26,6 +26,7 @@ import PostRequestExample from './httpRequest/PostRequestExample';
 import ReactBootstrapTableExample from './table/ReactBootstrapTableExample';
 import StateInFunction from "./state/StateInFunction";
 import UseEffectExample from './hooks/UseEffectExample';
+import UseEffectDataFetchExample from './hooks/UseEffectDataFetchExample';
 
 function App() {
   return (
@@ -90,6 +91,7 @@ function App() {
 
       <h4 className='pt-5'>Hooks</h4>
       <UseEffectExample/>
+      <UseEffectDataFetchExample/>
 
       </scrool>
 
