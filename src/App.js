@@ -28,6 +28,7 @@ import StateInFunction from "./state/StateInFunction";
 import UseEffectExample from './hooks/UseEffectExample';
 import UseEffectDataFetchExample from './hooks/UseEffectDataFetchExample';
 import UseStateExample from './hooks/UseStateExample';
+import RefExampleInClass from './ref/RefExampleInClass';
 
 function App() {
   return (
@@ -94,6 +95,9 @@ function App() {
       <UseEffectExample/>
       <UseEffectDataFetchExample/>
       <UseStateExample/>
+
+      <h4 className='pt-5'>Ref Example</h4>
+      <RefExampleInClass/>
 
       </scrool>
 
