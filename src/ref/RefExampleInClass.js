@@ -26,7 +26,6 @@ class RefExampleInClass extends Component {
                     <input type="text" name="phone" id="phone" ref={this.phoneRef} /><br/>
 
                     <button type="submit"> Submit </button>
-
                 </form>
             </div>
         );
