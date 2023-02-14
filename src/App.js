@@ -30,6 +30,7 @@ import UseEffectDataFetchExample from './hooks/UseEffectDataFetchExample';
 import UseStateExample from './hooks/UseStateExample';
 import RefExampleInClass from './ref/RefExampleInClass';
 import UseRefExample from './hooks/UseRefExample';
+import Component1 from './hooks/context/Component1';
 
 function App() {
   return (
@@ -100,6 +101,9 @@ function App() {
       <h4 className='pt-5'>Ref Example</h4>
       <RefExampleInClass/>
       <UseRefExample/>
+
+      <h4 className='pt-5'>Context Example</h4>
+      <Component1/>
 
       </scrool>
 
