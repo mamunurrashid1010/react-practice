@@ -31,6 +31,7 @@ import UseStateExample from './hooks/UseStateExample';
 import RefExampleInClass from './ref/RefExampleInClass';
 import UseRefExample from './hooks/UseRefExample';
 import Component1 from './hooks/context/Component1';
+import Toggle from "./toggle/toggle";
 
 function App() {
   return (
@@ -104,6 +105,9 @@ function App() {
 
       <h4 className='pt-5'>Context Example</h4>
       <Component1/>
+
+      <h4 className='pt-5'>Toggle Example</h4>
+      <Toggle/>
 
       </scrool>
 
