@@ -32,6 +32,7 @@ import RefExampleInClass from './ref/RefExampleInClass';
 import UseRefExample from './hooks/UseRefExample';
 import Component1 from './hooks/context/Component1';
 import Toggle from "./toggle/toggle";
+import MappingInFunctionalComponent from "./Mapping/MappingInFunctionalComponent";
 
 function App() {
   return (
@@ -108,6 +109,9 @@ function App() {
 
       <h4 className='pt-5'>Toggle Example</h4>
       <Toggle/>
+
+      <h4 className='pt-5'>Map Example</h4>
+      <MappingInFunctionalComponent/>
 
       </scrool>
 
