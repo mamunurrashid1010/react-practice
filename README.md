@@ -71,6 +71,7 @@ React is a free and open-source front-end JavaScript library for building user i
 
 ##### 22. Map
 * Map use in functional component
+* Nested Map use in functional component
 
 
 ## Basic Concept
