@@ -34,6 +34,8 @@ import Component1 from './hooks/context/Component1';
 import Toggle from "./toggle/toggle";
 import MappingInFunctionalComponent from "./Mapping/MappingInFunctionalComponent";
 import NestedMappingInFunctionalComponent from "./Mapping/NestedMappingInFunctionalComponent";
+import ExampleInFunctionalComponent from "../../react-practice-2/src/ConditionalRendering/ExampleInFunctionalComponent";
+import React from "react";
 
 function App() {
   return (
@@ -66,6 +68,7 @@ function App() {
       <h4>Conditional Rendering Example</h4>
       <Example1/>
       <Example2/>
+      <ExampleInFunctionalComponent/>
 
       <h4>Form Example</h4>
       <Registration/>
