@@ -34,8 +34,9 @@ import Component1 from './hooks/context/Component1';
 import Toggle from "./toggle/toggle";
 import MappingInFunctionalComponent from "./Mapping/MappingInFunctionalComponent";
 import NestedMappingInFunctionalComponent from "./Mapping/NestedMappingInFunctionalComponent";
-import ExampleInFunctionalComponent from "../../react-practice-2/src/ConditionalRendering/ExampleInFunctionalComponent";
+import ExampleInFunctionalComponent from ".//ConditionalRendering/ExampleInFunctionalComponent";
 import React from "react";
+import EventBubbling from "./Event_Bubbling/EventBubbling";
 
 function App() {
   return (
@@ -117,6 +118,9 @@ function App() {
       <h4 className='pt-5'>Map Example</h4>
       <MappingInFunctionalComponent/>
       <NestedMappingInFunctionalComponent/>
+
+      <h4>Event Bubbling Example</h4>
+      <EventBubbling/>
 
       </scrool>
 
