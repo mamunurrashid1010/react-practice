@@ -76,6 +76,10 @@ React is a free and open-source front-end JavaScript library for building user i
 ##### 23. Event Bubbling
 * Event Bubbling example in functional component
 
+##### 24. Bind
+* Method binding
+
+
 ## Basic Concept
 ##### 1. How to create a new react app
 ```

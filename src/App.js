@@ -37,6 +37,7 @@ import NestedMappingInFunctionalComponent from "./Mapping/NestedMappingInFunctio
 import ExampleInFunctionalComponent from ".//ConditionalRendering/ExampleInFunctionalComponent";
 import React from "react";
 import EventBubbling from "./Event_Bubbling/EventBubbling";
+import BindingExample from "./Binding/BindingExample";
 
 function App() {
   return (
@@ -121,6 +122,9 @@ function App() {
 
       <h4>Event Bubbling Example</h4>
       <EventBubbling/>
+
+      <h4>Method Binding Example</h4>
+      <BindingExample/>
 
       </scrool>
 
