@@ -38,6 +38,7 @@ import ExampleInFunctionalComponent from ".//ConditionalRendering/ExampleInFunct
 import React from "react";
 import EventBubbling from "./Event_Bubbling/EventBubbling";
 import BindingExample from "./Binding/BindingExample";
+import ExampleInFunction from "./Child_to_parent_data_passing/ExampleInFunction";
 
 function App() {
   return (
@@ -125,6 +126,10 @@ function App() {
 
       <h4>Method Binding Example</h4>
       <BindingExample/>
+
+
+      <h4>Child to Parent Data Passing Example</h4>
+      <ExampleInFunction/>
 
       </scrool>
 

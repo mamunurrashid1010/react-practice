@@ -79,6 +79,8 @@ React is a free and open-source front-end JavaScript library for building user i
 ##### 24. Bind
 * Method binding
 
+##### 25. Child to Parent Data Passing
+
 
 ## Basic Concept
 ##### 1. How to create a new react app
