@@ -81,6 +81,8 @@ React is a free and open-source front-end JavaScript library for building user i
 
 ##### 25. Child to Parent Data Passing
 
+##### 26. Fragment
+
 
 ## Basic Concept
 ##### 1. How to create a new react app
