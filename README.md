@@ -83,6 +83,8 @@ React is a free and open-source front-end JavaScript library for building user i
 
 ##### 26. Fragment
 
+##### 27. Memo
+
 
 ## Basic Concept
 ##### 1. How to create a new react app
