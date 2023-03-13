@@ -15,6 +15,7 @@ React is a free and open-source front-end JavaScript library for building user i
 ##### 4. Props
 * Props in functional component
 * Props in class component
+* Props Destructuring in function
 
 ##### 5. Event Handling
 * Button onClick event handling (class & functional component)
