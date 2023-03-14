@@ -347,3 +347,30 @@ class StateInClass extends Component{
 }
 export default StateInClass;
 ```
+
+##### 10.2. State use in functional component
+Create a js file ``` StateInFunction.js ``` and open then write code like-<br>
+```
+import React, {useState} from 'react';
+
+const StateInFunction = () => {
+    const [name,setName] = useState("Mamun");
+    const [designation,setDesignation] = useState("Software Engineer");
+
+    function changeValue(){
+        setName("Hasan");
+        setDesignation("IT Engineer");
+    }
+
+    return (
+        <div>
+            <p>State in function component example:</p>
+            <p>Name : {name}</p>
+            <p>Designation: {designation}</p>
+            <button onClick={changeValue}>Click for change</button>
+        </div>
+    );
+};
+
+export default StateInFunction;
+```
