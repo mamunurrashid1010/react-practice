@@ -405,3 +405,28 @@ class Example1 extends Component{
 }
 export default Example1;
 ```
+
+##### 11.2. Conditional rendering use in functional component
+Create a js file ``` ExampleInFunctionalComponent.js ``` and open then write code like-<br>
+```
+import React, {useState} from 'react';
+
+const ExampleInFunctionalComponent = () => {
+    const [auth,SetAuth] = useState(true);
+
+    if(auth == true)
+        return (
+            <div>
+                <p>Auth true</p>
+            </div>
+        );
+    else
+        return (
+            <div>
+                <p>Auth false</p>
+            </div>
+        );
+};
+
+export default ExampleInFunctionalComponent;
+```
