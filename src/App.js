@@ -39,6 +39,7 @@ import React from "react";
 import EventBubbling from "./Event_Bubbling/EventBubbling";
 import BindingExample from "./Binding/BindingExample";
 import ExampleInFunction from "./Child_to_parent_data_passing/ExampleInFunction";
+import MappingInClassComponent from "./Mapping/MappingInClassComponent";
 
 function App() {
   return (
@@ -120,6 +121,7 @@ function App() {
       <h4 className='pt-5'>Map Example</h4>
       <MappingInFunctionalComponent/>
       <NestedMappingInFunctionalComponent/>
+      <MappingInClassComponent/>
 
       <h4>Event Bubbling Example</h4>
       <EventBubbling/>
