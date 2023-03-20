@@ -90,6 +90,8 @@ React is a free and open-source front-end JavaScript library for building user i
 ##### 28. PropTypes
 * Proptypes declaration, default types use in functional component
 
+##### 29. Life Cycle 
+
 
 ## Basic Concept
 ##### 1. How to create a new react app
