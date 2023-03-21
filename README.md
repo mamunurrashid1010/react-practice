@@ -433,3 +433,50 @@ const ExampleInFunctionalComponent = () => {
 
 export default ExampleInFunctionalComponent;
 ```
+
+##### 12. Life Cycle
+Mounting = constructor -> render -> componentDidMount <br>
+Updating = state/props -> render -> componentDidUpdate <br>
+Unmounting <br>
+Example :
+Create a js file ``` LifeCycleExample.js ``` and open then write code like- <br>
+```
+import React, {Component} from 'react';
+
+class LifeCycleExample extends Component {
+    constructor(props){
+        super(props);
+        this.state={
+            count:0,
+        }
+        console.log('Constructor')
+    }
+
+    componentDidMount() {
+        console.log('componentDidMount')
+    }
+
+    componentDidUpdate() {
+        console.log("componentDidUpdate");
+    }
+
+    shouldComponentUpdate() {
+        console.log("shouldComponentUpdate");
+        return true;
+    }
+
+    render() {
+        {console.log('Render')}
+        return (
+            <div>
+                <h4>Count : {this.state.count}</h4>
+                <button onClick={()=>{this.setState({count:this.state.count+1})}}> + </button>
+            </div>
+        );
+    }
+}
+
+export default LifeCycleExample;
+```
+
+
