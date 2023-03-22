@@ -409,6 +409,31 @@ class Example1 extends Component{
 export default Example1;
 ```
 
+Example-2 : Create a js file ``` Example2.js ``` and open then write code like-<br>
+```
+import React, { Component } from "react";
+
+class Example2 extends Component{
+    constructor(){
+        super();
+        this.state={
+            login:true,
+        }
+    }
+
+    render(){
+        // conditional return
+        return(
+            this.state.login==true?
+            (<p>You are login</p>)
+            :
+            (<p>You are log-out</p>)
+        )
+    }
+}
+export default Example2;
+```
+
 ##### 11.2. Conditional rendering use in functional component
 Create a js file ``` ExampleInFunctionalComponent.js ``` and open then write code like-<br>
 ```
