@@ -504,4 +504,35 @@ class LifeCycleExample extends Component {
 export default LifeCycleExample;
 ```
 
+##### 13. Props
+Props stands for properties. Props are used pass data from one component to another component.
 
+##### 13.1. Props use example in functional component
+Create js file ``` Parent.js ``` , ``` Child.js ``` and open then write code like- <br>
+```
+import React from "react";
+import Child from "./Component/Child";
+function Parent(){
+    return(
+        <div>
+            <h5>Props example.</h5>
+            <Child name="Mamunur Rashid" designation="Software Engineer" />
+        </div>
+    );
+}
+export default Parent;
+```
+```
+import React from "react";
+
+function Child(props){
+    return(
+        <div>
+            <h5>I'm from child component.</h5>
+            <p>Name: {props.name}</p>
+            <p>Designation: {props.designation}</p>
+        </div>
+    );
+}
+export default Child;
+```
